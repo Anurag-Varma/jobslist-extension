@@ -30,7 +30,12 @@ Enhance your LinkedIn experience with the **JobsList Extension**! This Chrome ex
 
 1. Go to [JobsList Live](https://jobslist.live/) and create an account.
 2. Email **admin@jobslist.live** to request **Pro User** status for advanced features.
-3. In your profile add your custom cold email template which can also include a link to your resume from google drive.
+3. In your profile add your custom cold email template which can also include a link to your resume from google drive. 
+   **Can use the below fillers in your email template to automatically fill them for each job**
+   - {PERSON_NAME}
+   - {JOB_TITLE}
+   - {COMPANY}
+   - {JOB_LINK}
 4. Use a cookie editor extension to get the cookies of your linkedin account and paste the json format cookies in your profile.
     **Provide LinkedIn Cookies**:  
    - To access your LinkedIn account, you must provide your LinkedIn cookies. These cookies allow the extension to find and fetch the profiles of people working in a company visible to your profile.  
@@ -47,7 +52,7 @@ Enhance your LinkedIn experience with the **JobsList Extension**! This Chrome ex
 1. Log in to LinkedIn and browse [jobs](https://www.linkedin.com/jobs/search/).
 2. Click the **Referral** button added into the job postings.
 3. In the popup which opens, select send button for each person whom you want to send an email or use the send all button feature.
-4. Check and verify your sent emails section in your gmail.
+4. Check and verify your sent emails section in your gmail before using the extension to send too many emails to confirm that the email format is correct.
 
 
 ## Disclaimer
