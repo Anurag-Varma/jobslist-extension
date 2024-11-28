@@ -24,5 +24,9 @@
       "matches": ["https://www.linkedin.com/*"],
       "js": ["content.js"]
     }
-  ]
+  ],
+  "icons": {
+    "16": "favicon16.png",
+    "48": "favicon48.png"
+  }
 }

@@ -314,7 +314,7 @@ function addReferralButton() {
                     if (result.referralData) {
                         createReferralModal(result.referralData.content);
                     } else {
-                        console.log('No referral Data found.');
+                        console.error('No referral Data found.');
                     }
                 });
 
