@@ -44,7 +44,7 @@ Enhance your LinkedIn experience with the **JobsList Extension**! This Chrome ex
 6. Connect your gmail which [JobsList Live](https://jobslist.live/) to automatically send emails on behalf of your account.
    **Connect Gmail Send Permissions**:  
    - As a Pro User, you'll need to grant the extension permission to send emails on your behalf using your Gmail account.
-   - Can do this by clicking on the referrals button for any job on [JobsList Live](https://jobslist.live/) which automatically asks you to provide access to your gmail. This can't be changed once assigned to a particular gmail. Email **admin@jobslist.live** if you want to change your connected email.
+   - Can do this by clicking on the referrals button for any job on [jobs](https://www.linkedin.com/jobs/search/) which automatically asks you to select/login into your gmail and provide access to your gmail to send emails. This can't be changed once assigned to a particular gmail. Email **admin@jobslist.live** if you want to change your connected email.
 
 
 ### Step 4: Start Using the Extension

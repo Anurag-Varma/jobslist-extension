@@ -95,7 +95,18 @@ async function sendEmail(person) {
 
         if (!response.ok) throw new Error("Failed to send email.");
 
-        showToast("Success", `Email sent to ${person.email}`, "success");
+        data = await response.json();
+
+        if (data.authUrl) {
+            // chrome.tabs.create({ url: data.authUrl });
+            chrome.runtime.sendMessage({ action: "createTab", url: data.authUrl });
+
+            showToast("Error", "Connect your gmail to send emails", "error");
+        }
+        else {
+            showToast("Success", `Email sent to ${person.email}`, "success");
+        }
+
     } catch (error) {
         showToast("Error", error.message, "error");
     }

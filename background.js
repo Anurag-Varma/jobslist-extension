@@ -29,6 +29,9 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 
             return true; // Keep the message channel open
         }
+        else if (request.action === "createTab") {
+            chrome.tabs.create({ url: request.url });
+        }
     } catch (error) {
         console.error("Error processing message:", error.message);
         sendResponse({ success: false, message: error.message });

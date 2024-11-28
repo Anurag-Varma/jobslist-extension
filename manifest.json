@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "LinkedIn Job Data Enhanced",
+  "name": "JobsList Extension",
   "version": "1.1",
   "permissions": [
     "storage",
@@ -13,6 +13,7 @@
   "host_permissions": [
     "https://www.linkedin.com/*",
     "https://api-v3-test.jobslist.live/*",
+    "https://accounts.google.com/*",
     "https://www.jobslist.live/*"
   ],
   "background": {
